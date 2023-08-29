@@ -1,4 +1,4 @@
-def agregar(milista):
+def agregar(milista): #comentar
    num=int(input('que numero quiere agregar: '))
    milista.append(num)
    print(milista)
