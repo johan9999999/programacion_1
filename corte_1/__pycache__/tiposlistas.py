@@ -14,6 +14,12 @@ def borrar(milista):
     milista.clear()
     print(milista)   
 
+def remover(milista):
+    print(milista)
+    var=int(input('numero que quiera remover: '))
+    milista.remove(var)
+    print(milista)      
+
 def main():
     milista=[2,3,4,8]
     opc=''
@@ -28,6 +34,8 @@ def main():
             inserta(milista)  
         elif opc=='3':
             borrar(milista)
+        elif opc=='4':
+            re(milista)
 
 if __name__=="__main__":
     main()
